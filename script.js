@@ -15,10 +15,11 @@ const divide = (arr, n) => {
 			current = [arr[i]];
 			sum = arr[i];
 		}
-		result.push(current);
-		return result;
+		
 	}
+	result.push(current);
+		return result;
 };
 
-//const n = prompt("Enter n: ");
+const n = prompt("Enter n: ");
 alert(JSON.stringify(divide(arr, n)));
