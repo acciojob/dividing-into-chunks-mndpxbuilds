@@ -6,7 +6,7 @@ const divide = (arr, n) => {
 	for(let i=0; i<arr.length; i++){
 		if(arr[i]==n || arr[i]<n){
 			result.push(arr[i]);
-		}else if(arr[i]+arr[i+1]<n){
+		}else if(arr[i]+arr[i+1]+arr[i+2]<n){
 			result.push(arr[i],arr[i+1]);
 		}else{
 			continue;
